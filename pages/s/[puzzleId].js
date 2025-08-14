@@ -131,7 +131,7 @@ export default function SolvePage({ puzzle }) {
 
     return (
         <div className="main-background flex flex-col items-center justify-center min-h-screen p-4">
-            <Head><title>Solve Puzzle #{puzzle.puzzleNumber}</title></Head>
+            <Head><title>Solve Puzzle #{puzzle.title}</title></Head>
             <div className="w-full max-w-sm mx-auto bg-slate-900/70 backdrop-blur-xl border border-white/20 rounded-2xl shadow-2xl p-6 md:p-8 text-center text-white">
                 <div className="mb-6"><h1 className="text-3xl md:text-4xl font-bold text-cyan-300">Plugab</h1><p className="text-gray-300 mt-1">Puzzle {puzzle.title}</p></div>
                 <div className="min-h-[150px] flex items-center justify-center">{renderContent()}</div>
